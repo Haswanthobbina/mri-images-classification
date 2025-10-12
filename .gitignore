@@ -1,0 +1,36 @@
+# Ignore large training datasets
+archive/Training/
+archive/Testing/
+
+# Ignore model files (large binary files)
+*.pth
+*.h5
+
+# Ignore temporary files
+archive/temporary_ui/
+archive/testingimg.jpeg
+archive/submission.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

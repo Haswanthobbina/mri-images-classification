@@ -1,0 +1,14 @@
+- [x] Install transformers library for Hugging Face models
+- [x] Install sacremoses for BioGPT tokenization
+- [x] Install SHAP library for explainable AI
+- [x] Modify comprehensive_streamlit_app.py to replace Gemini API with local BioGPT model
+- [x] Update imports to include transformers and shap
+- [x] Add model loading with caching
+- [x] Replace the chatbot logic to use local model for text generation
+- [x] Update sidebar title and remove API key input
+- [x] Add SHAP explanation method as alternative to Grad-CAM
+- [x] Add selectbox to choose between Grad-CAM and SHAP explanations
+- [x] Update app title and description to reflect multiple XAI methods
+- [x] Add error handling for SHAP import (optional dependency)
+- [x] Fix OpenCV image overlay error (color space mismatch)
+- [x] Test the app to ensure it works
